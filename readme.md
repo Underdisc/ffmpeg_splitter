@@ -19,14 +19,16 @@ To split clips.mp3 using the splitter, we can run the python script like this.
 
 **Important Note:** This might not work depending on the identifier used for ffmpeg in your shell environment. By default, the splitter uses *ffmpeg* as the identifier. You can change this using `-f` or `--ffmpeg`.
 
-`py splitter.py -m clips.mp3 -c timestamps.txt -f your_ffmpeg_command`
+`py splitter.py -m clips.mp3 -c timestamps.txt -f <your_ffmpeg_command>`
 
-Assuming no errors occur this will produce the following files in the working directory.
+Assuming no errors occur, this will produce the following files in the working directory.
+```
 one.mp3
 two.mp3
 three.mp3
 four.mp3
 Last Clip.mp3
+```
 
 ### Formatting option
 
