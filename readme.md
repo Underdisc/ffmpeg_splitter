@@ -1,5 +1,5 @@
 ## ffmpeg splitter
-The ffmpeg splitter will take a media file such as a mp3, wav, mp4, etc. and split that file into multiple files using a list of timestamps and names.
+The ffmpeg splitter will take a media file such as a mp3, wav, etc. and split that file into multiple files using a list of timestamps and names.
 
 ### How to use the ffmpeg splitter
 Say we have a mp3 that contains multiple audio clips that are concatenated together in one large mp3 file. We'll call this file clips.mp3. The splitter can take that mp3 file and split those clips into different files using a timestamp config file.
